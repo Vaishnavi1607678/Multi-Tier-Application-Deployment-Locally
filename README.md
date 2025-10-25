@@ -1,4 +1,5 @@
 # Complete-DevOps-Project-Multi-Tier-Application-Deployment-Locally
+<img width="661" height="401" alt="image" src="https://github.com/user-attachments/assets/b47fa550-e50f-4691-9286-f1bb218eb17c" />
 
 This project sets up a complete multi-tier architecture using Vagrant + VirtualBox, featuring MySQL, Memcache, RabbitMQ, Tomcat, and Nginx servers.
 Each service is provisioned manually for learning and demonstration purposes on Windows systems.
@@ -11,6 +12,9 @@ mc01	Caching	Memcache	CentOS Stream 9
 rmq01	Messaging Queue	RabbitMQ	CentOS Stream 9
 app01	Application	Tomcat + Java	CentOS Stream 9
 web01	Web Server	Nginx	Ubuntu 22.04
+
+## Project Flow
+<img width="700" height="337" alt="image" src="https://github.com/user-attachments/assets/5ab0093b-6d20-41bb-94d6-dfa76e9ccb93" />
 
 ## Step 0: Prerequisites
 Install Required Tools
@@ -96,6 +100,7 @@ This will:
   * `rmq01` → RabbitMQ
   * `app01` → Tomcat
   * `web01` → Nginx
+<img width="700" height="135" alt="image" src="https://github.com/user-attachments/assets/cc4f51e2-e64e-4bc0-9ef1-83b941959067" />
 
 > Use **Git Bash** for SSH connections — CMD might not support them properly.
 
